@@ -1,16 +1,19 @@
 package top.liekai.boot.mybatis.domain;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Student {
     /**
     * 学生id
@@ -36,4 +39,12 @@ public class Student {
     * 出生日期
     */
     private LocalDate birthday;
+    /**
+     * 多方声明，一方对象
+     */
+    private Clazz clazz;
+    /**
+     * 学生与课程多对多
+     */
+    private  List<Course> courses;
 }

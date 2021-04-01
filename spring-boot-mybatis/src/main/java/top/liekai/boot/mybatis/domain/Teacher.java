@@ -24,4 +24,8 @@ public class Teacher {
      * 教师管理的班级id
      */
     private Integer clazzId;
+    /**
+     * 教师管理的班级对象
+     */
+    private Clazz clazz ;
 }

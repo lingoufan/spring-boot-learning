@@ -1,4 +1,4 @@
-package top.liekai.boot.quickstart.controller.dto;
+package top.liekai.boot.mybatis.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

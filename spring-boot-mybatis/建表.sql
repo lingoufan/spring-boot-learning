@@ -1,7 +1,5 @@
 # 建表脚本
 
-```sql
-# 教师表，和班级一对一
 DROP TABLE IF EXISTS `t_teacher`;
 CREATE TABLE `t_teacher`
 (
@@ -102,5 +100,5 @@ INSERT INTO `t_course_student` VALUES (7, 20001, 1007);
 INSERT INTO `t_course_student` VALUES (8, 20001, 1008);
 INSERT INTO `t_course_student` VALUES (9, 20002, 1001);
 INSERT INTO `t_course_student` VALUES (10, 20002, 1002);
-```
+
 

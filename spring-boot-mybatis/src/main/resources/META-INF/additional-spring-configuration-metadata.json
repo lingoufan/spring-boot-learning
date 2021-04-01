@@ -1,1 +1,8 @@
-{ "properties": [ ] }
+{
+  "properties": [
+    {
+      "name": "pagehelper",
+      "type": "java.lang.String",
+      "description": "Description for pagehelper."
+  }
+] }

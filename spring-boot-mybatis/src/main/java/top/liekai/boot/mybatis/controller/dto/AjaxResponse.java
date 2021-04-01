@@ -1,10 +1,8 @@
-package top.liekai.boot.quickstart.controller.dto;
+package top.liekai.boot.mybatis.controller.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author admin

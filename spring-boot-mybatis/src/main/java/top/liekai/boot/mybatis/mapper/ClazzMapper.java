@@ -2,16 +2,22 @@ package top.liekai.boot.mybatis.mapper;
 
 import top.liekai.boot.mybatis.domain.Clazz;
 
+/**
+ * @author admin
+ */
 public interface ClazzMapper {
-    int deleteByPrimaryKey(Integer clazzId);
+//    /**
+//     *
+//     * @param clazzId
+//     * @return
+//     */
+//    Clazz getClazzOneToMany(int  clazzId);
 
-    int insert(Clazz record);
+   /**
+    *
+    * @param clazzId 对象
+    * @return   返回
+    */
+   Clazz getClazz(int clazzId);
 
-    int insertSelective(Clazz record);
-
-    Clazz selectByPrimaryKey(Integer clazzId);
-
-    int updateByPrimaryKeySelective(Clazz record);
-
-    int updateByPrimaryKey(Clazz record);
 }
